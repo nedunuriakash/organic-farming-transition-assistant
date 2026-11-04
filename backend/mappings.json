@@ -1,0 +1,136 @@
+{
+    "crops": [
+        "Chilli (Mirapa / Mirchi)",
+        "Cotton (Patti / Pratti / Kapas)",
+        "Groundnut (Palli / Verusenaga / Mungfali / Peanut)",
+        "Maize (Mokka Jonna / Makka / Bhutta / Corn)",
+        "Mango (Mamidi/Aam) & Sweet Orange (Bathayi)",
+        "Paddy (Vari / Tari / Dhan / Chawal / Rice)",
+        "Red Gram (Kandi / Tur / Arhar) & Bengal Gram (Senaga / Chana)",
+        "Sugarcane (Cheraku / Ganna)",
+        "Tomato (Tamata) & Onion (Ullipaya / Pyaz)"
+    ],
+    "problems_by_crop": {
+        "Chilli (Mirapa / Mirchi)": [
+            "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)",
+            "Phosphorus & Potassium deficiency (Poshakala lopam)",
+            "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)"
+        ],
+        "Cotton (Patti / Pratti / Kapas)": [
+            "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)",
+            "Nitrogen deficiency (Poshakala lopam / Natijan lopam)",
+            "Pink Bollworm (Gulabi rangu purugu / Gulabi Sundi)",
+            "Root Rot & Wilt (Veru kullu tegulu / Ukhtha rog)",
+            "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)"
+        ],
+        "Groundnut (Palli / Verusenaga / Mungfali / Peanut)": [
+            "Aphids (Penu banka / Mahu)",
+            "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)",
+            "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)",
+            "Phosphorus & Potassium deficiency (Poshakala lopam)"
+        ],
+        "Maize (Mokka Jonna / Makka / Bhutta / Corn)": [
+            "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)",
+            "Nitrogen deficiency (Poshakala lopam / Natijan lopam)",
+            "Stem Borer (Kandam tholuchu purugu / Tana Chedak)"
+        ],
+        "Mango (Mamidi/Aam) & Sweet Orange (Bathayi)": [
+            "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)",
+            "Phosphorus & Potassium deficiency (Poshakala lopam)"
+        ],
+        "Paddy (Vari / Tari / Dhan / Chawal / Rice)": [
+            "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)",
+            "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)",
+            "Nitrogen deficiency (Poshakala lopam / Natijan lopam)",
+            "Stem Borer (Kandam tholuchu purugu / Tana Chedak)"
+        ],
+        "Red Gram (Kandi / Tur / Arhar) & Bengal Gram (Senaga / Chana)": [
+            "Aphids (Penu banka / Mahu)",
+            "Phosphorus & Potassium deficiency (Poshakala lopam)",
+            "Root Rot & Wilt (Veru kullu tegulu / Ukhtha rog)"
+        ],
+        "Sugarcane (Cheraku / Ganna)": [
+            "Nitrogen deficiency (Poshakala lopam / Natijan lopam)"
+        ],
+        "Tomato (Tamata) & Onion (Ullipaya / Pyaz)": [
+            "Aphids (Penu banka / Mahu)",
+            "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)"
+        ]
+    },
+    "chemicals_by_problem": {
+        "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)": [
+            "Bavistin (Carbendazim - Tegulu mandu)",
+            "M-45 / Dithane (Mancozeb)",
+            "Tilt (Propiconazole)"
+        ],
+        "Phosphorus & Potassium deficiency (Poshakala lopam)": [
+            "19 19 19 (NPK)",
+            "20 20 20 (NPK)",
+            "28 28 0 (Gromor)",
+            "DAP (Eruvu / Khad)",
+            "MOP (Eruvu / Khad)"
+        ],
+        "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)": [
+            "Confidor (Imidacloprid)",
+            "Proclaim (Emamectin Benzoate)",
+            "Tracer (Spinosad)"
+        ],
+        "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)": [
+            "Atrataf (Atrazine)",
+            "Gramoxone (Paraquat)",
+            "Roundup (Glyphosate)",
+            "Stomp (Pendimethalin)"
+        ],
+        "Nitrogen deficiency (Poshakala lopam / Natijan lopam)": [
+            "Ammonium Sulphate",
+            "Urea (Eruvu / Khad)"
+        ],
+        "Pink Bollworm (Gulabi rangu purugu / Gulabi Sundi)": [
+            "Coragen / Chlorantraniliprole",
+            "Cypermethrin",
+            "Mono / Monocrotophos (Purugu mandu)"
+        ],
+        "Root Rot & Wilt (Veru kullu tegulu / Ukhtha rog)": [
+            "Blitox (Copper Oxychloride)",
+            "Ridomil (Metalaxyl)"
+        ],
+        "Aphids (Penu banka / Mahu)": [
+            "Asataf (Acephate)",
+            "Rogor (Dimethoate)"
+        ],
+        "Stem Borer (Kandam tholuchu purugu / Tana Chedak)": [
+            "Cartap Hydrochloride",
+            "Dursban (Chlorpyrifos)",
+            "Fipronil (Regent)"
+        ]
+    },
+    "alternative_by_chemical": {
+        "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)_Bavistin (Carbendazim - Tegulu mandu)": "Pseudomonas fluorescens",
+        "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)_M-45 / Dithane (Mancozeb)": "Sour Buttermilk Spray",
+        "Leaf Spot & Blight (Aaku macha tegulu / Jhulsa rog)_Tilt (Propiconazole)": "Trichoderma viride",
+        "Phosphorus & Potassium deficiency (Poshakala lopam)_19 19 19 (NPK)": "Wood Ash",
+        "Phosphorus & Potassium deficiency (Poshakala lopam)_20 20 20 (NPK)": "Bone Meal",
+        "Phosphorus & Potassium deficiency (Poshakala lopam)_28 28 0 (Gromor)": "Bone Meal",
+        "Phosphorus & Potassium deficiency (Poshakala lopam)_DAP (Eruvu / Khad)": "Bone Meal",
+        "Phosphorus & Potassium deficiency (Poshakala lopam)_MOP (Eruvu / Khad)": "Phosphorus Solubilizing Bacteria (PSB) + FYM",
+        "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)_Confidor (Imidacloprid)": "Verticillium lecanii",
+        "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)_Proclaim (Emamectin Benzoate)": "Yellow & Blue Sticky Traps",
+        "Thrips & Whiteflies (Tella doma / Taamara purugu / Safed Makkhi)_Tracer (Spinosad)": "Neem Oil (10000 ppm)",
+        "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)_Atrataf (Atrazine)": "Organic Mulching (Paddy straw)",
+        "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)_Gramoxone (Paraquat)": "Manual Weeding",
+        "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)_Roundup (Glyphosate)": "Organic Mulching (Paddy straw)",
+        "Broadleaf & Grassy weeds (Vedalpaku & Gaddi jathi kallepu)_Stomp (Pendimethalin)": "Manual Weeding",
+        "Nitrogen deficiency (Poshakala lopam / Natijan lopam)_Ammonium Sulphate": "Azolla & Blue Green Algae (BGA)",
+        "Nitrogen deficiency (Poshakala lopam / Natijan lopam)_Urea (Eruvu / Khad)": "Jeevamrutham",
+        "Pink Bollworm (Gulabi rangu purugu / Gulabi Sundi)_Coragen / Chlorantraniliprole": "Neem Seed Kernel Extract (NSKE 5%)",
+        "Pink Bollworm (Gulabi rangu purugu / Gulabi Sundi)_Cypermethrin": "Trichogramma chilonis (Egg parasitoid)",
+        "Pink Bollworm (Gulabi rangu purugu / Gulabi Sundi)_Mono / Monocrotophos (Purugu mandu)": "Pheromone Traps (5/acre)",
+        "Root Rot & Wilt (Veru kullu tegulu / Ukhtha rog)_Blitox (Copper Oxychloride)": "Jivamrutham soil drenching",
+        "Root Rot & Wilt (Veru kullu tegulu / Ukhtha rog)_Ridomil (Metalaxyl)": "Trichoderma harzianium enriched FYM",
+        "Aphids (Penu banka / Mahu)_Asataf (Acephate)": "Agniastra",
+        "Aphids (Penu banka / Mahu)_Rogor (Dimethoate)": "Brahmastra",
+        "Stem Borer (Kandam tholuchu purugu / Tana Chedak)_Cartap Hydrochloride": "Dashaparni Kashayam",
+        "Stem Borer (Kandam tholuchu purugu / Tana Chedak)_Dursban (Chlorpyrifos)": "Beauveria bassiana",
+        "Stem Borer (Kandam tholuchu purugu / Tana Chedak)_Fipronil (Regent)": "Beauveria bassiana"
+    }
+}

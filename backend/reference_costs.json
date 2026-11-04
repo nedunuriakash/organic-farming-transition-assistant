@@ -1,0 +1,63 @@
+{
+  "reference_rates": {
+    "chemical_prices": {
+      "Urea (Eruvu / Khad)": { "price": 267, "unit": "45kg Bag" },
+      "DAP (Eruvu / Khad)": { "price": 1350, "unit": "50kg Bag" },
+      "MOP (Eruvu / Khad)": { "price": 1700, "unit": "50kg Bag" },
+      "19 19 19 (NPK)": { "price": 650, "unit": "1kg Pouch" },
+      "20 20 20 (NPK)": { "price": 700, "unit": "1kg Pouch" },
+      "28 28 0 (Gromor)": { "price": 1450, "unit": "50kg Bag" },
+      "Ammonium Sulphate": { "price": 850, "unit": "50kg Bag" },
+      "Bavistin (Carbendazim - Tegulu mandu)": { "price": 920, "unit": "500g Pack" },
+      "M-45 / Dithane (Mancozeb)": { "price": 650, "unit": "500g Pack" },
+      "Tilt (Propiconazole)": { "price": 980, "unit": "250ml Bottle" },
+      "Confidor (Imidacloprid)": { "price": 425, "unit": "100ml Bottle" },
+      "Proclaim (Emamectin Benzoate)": { "price": 680, "unit": "100g Pack" },
+      "Tracer (Spinosad)": { "price": 2200, "unit": "75ml Bottle" },
+      "Atrataf (Atrazine)": { "price": 550, "unit": "1kg Pack" },
+      "Gramoxone (Paraquat)": { "price": 750, "unit": "1L Jug" },
+      "Roundup (Glyphosate)": { "price": 850, "unit": "1L Jug" },
+      "Stomp (Pendimethalin)": { "price": 620, "unit": "1L Bottle" },
+      "Coragen / Chlorantraniliprole": { "price": 2400, "unit": "60ml Bottle" },
+      "Cypermethrin": { "price": 620, "unit": "1L Bottle" },
+      "Mono / Monocrotophos (Purugu mandu)": { "price": 580, "unit": "1L Jug" },
+      "Blitox (Copper Oxychloride)": { "price": 750, "unit": "500g Pack" },
+      "Ridomil (Metalaxyl)": { "price": 820, "unit": "500g Pack" },
+      "Asataf (Acephate)": { "price": 620, "unit": "500g Pack" },
+      "Rogor (Dimethoate)": { "price": 480, "unit": "500ml Bottle" },
+      "Cartap Hydrochloride": { "price": 680, "unit": "500g Pack" },
+      "Dursban (Chlorpyrifos)": { "price": 550, "unit": "1L Bottle" },
+      "Fipronil (Regent)": { "price": 1050, "unit": "1L Bottle" }
+    },
+    "crop_requirements": {
+      "Default": { "qty": 1, "apps": 2 },
+      "Paddy (Vari / Tari / Dhan / Chawal / Rice)": { "Urea (Eruvu / Khad)": { "qty": 3, "apps": 2 } },
+      "Sugarcane (Cheraku / Ganna)": { "Urea (Eruvu / Khad)": { "qty": 10, "apps": 1 } },
+      "Mango (Mamidi/Aam) & Sweet Orange (Bathayi)": { "Urea (Eruvu / Khad)": { "qty": 5, "apps": 1 } }
+    },
+    "organic_costs": {
+      "Jeevamrutham": { "price": 80 },
+      "Sour Buttermilk Spray": { "price": 20 },
+      "Wood Ash": { "price": 0 },
+      "Bone Meal": { "price": 120 },
+      "Phosphorus Solubilizing Bacteria (PSB) + FYM": { "price": 250 },
+      "Verticillium lecanii": { "price": 350 },
+      "Yellow & Blue Sticky Traps": { "price": 150 },
+      "Neem Oil (10000 ppm)": { "price": 520 },
+      "Organic Mulching (Paddy straw)": { "price": 200 },
+      "Manual Weeding": { "price": 800 },
+      "Azolla & Blue Green Algae (BGA)": { "price": 60 },
+      "Neem Seed Kernel Extract (NSKE 5%)": { "price": 300 },
+      "Trichogramma chilonis (Egg parasitoid)": { "price": 180 },
+      "Pheromone Traps (5/acre)": { "price": 450 },
+      "Jivamrutham soil drenching": { "price": 100 },
+      "Trichoderma harzianium enriched FYM": { "price": 400 },
+      "Agniastra": { "price": 60 },
+      "Brahmastra": { "price": 70 },
+      "Dashaparni Kashayam": { "price": 40 },
+      "Beauveria bassiana": { "price": 450 },
+      "Pseudomonas fluorescens": { "price": 380 },
+      "Trichoderma viride": { "price": 350 }
+    }
+  }
+}

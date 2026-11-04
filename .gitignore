@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+tmp/
+full_tree_before.txt
+full_tree_now.txt

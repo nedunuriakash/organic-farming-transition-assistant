@@ -1,0 +1,5 @@
+.env
+venv/
+*.txt
+test_mongo.py
+__pycache__/

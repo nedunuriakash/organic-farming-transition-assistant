@@ -1,0 +1,694 @@
+{
+    "Roundup (Glyphosate)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 15,
+            "Cancer Risk": 75,
+            "Microbial Death": 85,
+            "Skin Allergy": 40,
+            "Water Poison": 65
+        },
+        "scientific_profile": {
+            "Chemical Type": "Weed killer - enters through leaves and kills the whole plant",
+            "Soil Poison Time": "Stays in soil for many months, sometimes over a year",
+            "Attack Method": "Stops the plant from making proteins it needs to survive",
+            "Global Status": "Probably causes cancer (WHO) - Banned in 20+ countries"
+        },
+        "famous_diseases": [
+            "Non-Hodgkin Lymphoma",
+            "Kidney Damage",
+            "Liver Inflammation",
+            "Hormone Problems",
+            "Birth Defects"
+        ],
+        "safe_alternatives": [
+            "Organic Mulching (Paddy straw)",
+            "Manual Weeding",
+            "Cover Cropping"
+        ]
+    },
+    "Mono / Monocrotophos (Purugu mandu)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 99,
+            "Cancer Risk": 60,
+            "Microbial Death": 90,
+            "Skin Allergy": 55,
+            "Water Poison": 85
+        },
+        "scientific_profile": {
+            "Chemical Type": "Extremely dangerous insect poison - kills on contact and through eating",
+            "Soil Poison Time": "Breaks down in 1-4 weeks",
+            "Attack Method": "Paralyzes the nervous system of insects and humans alike",
+            "Global Status": "Most dangerous category (WHO) - Banned in 60+ countries"
+        },
+        "famous_diseases": [
+            "Paralysis",
+            "Breathing Failure",
+            "Nerve Damage",
+            "Muscle Twitching",
+            "ADHD in Children"
+        ],
+        "safe_alternatives": [
+            "Pheromone Traps (5/acre)",
+            "Neem Oil (10000 ppm)",
+            "Light Traps"
+        ]
+    },
+    "Asataf (Acephate)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 15,
+            "Cancer Risk": 50,
+            "Microbial Death": 65,
+            "Skin Allergy": 10,
+            "Water Poison": 55
+        },
+        "scientific_profile": {
+            "Chemical Type": "Nerve-attacking insect killer - absorbed by the plant",
+            "Soil Poison Time": "Breaks down quickly in 3-6 days",
+            "Attack Method": "Blocks nerve signals - insects cannot move or breathe",
+            "Global Status": "Possibly causes cancer (EPA) - Restricted in Europe"
+        },
+        "famous_diseases": [
+            "Memory Problems",
+            "Liver Stress",
+            "Tremors",
+            "Kills Honeybees"
+        ],
+        "safe_alternatives": [
+            "Agniastra",
+            "Dashaparni Kashayam",
+            "Neem Seed Kernel Extract"
+        ]
+    },
+    "28 28 0 (Gromor)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 10,
+            "Microbial Death": 60,
+            "Skin Allergy": 15,
+            "Water Poison": 90
+        },
+        "scientific_profile": {
+            "Chemical Type": "Chemical fertilizer - gives quick burst of Nitrogen, Phosphorus, Potassium",
+            "Soil Poison Time": "Dissolves quickly in days - washes into groundwater",
+            "Attack Method": "Forces fast growth but poisons water sources with nitrates",
+            "Global Status": "Commonly used - but causes major water pollution"
+        },
+        "famous_diseases": [
+            "Blue Baby Syndrome",
+            "Stomach Cancer (from Nitrates)",
+            "Thyroid Problems",
+            "Kidney Stones"
+        ],
+        "safe_alternatives": [
+            "Bone Meal",
+            "Wood Ash",
+            "De-oiled Cakes"
+        ]
+    },
+    "Tilt (Propiconazole)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 20,
+            "Cancer Risk": 45,
+            "Microbial Death": 45,
+            "Skin Allergy": 30,
+            "Water Poison": 70
+        },
+        "scientific_profile": {
+            "Chemical Type": "Fungus killer - enters the plant and spreads inside",
+            "Soil Poison Time": "Stays 1-4 months in soil",
+            "Attack Method": "Stops fungus from building its cell walls",
+            "Global Status": "Messes with hormones - Approval cancelled in Europe (2019)"
+        },
+        "famous_diseases": [
+            "Hormone Problems",
+            "Harms Unborn Babies",
+            "Birth Defects",
+            "Liver Damage"
+        ],
+        "safe_alternatives": [
+            "Trichoderma viride",
+            "Pseudomonas fluorescens",
+            "Sour Buttermilk Spray"
+        ]
+    },
+    "MOP (Eruvu / Khad)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 5,
+            "Microbial Death": 50,
+            "Skin Allergy": 15,
+            "Water Poison": 40
+        },
+        "scientific_profile": {
+            "Chemical Type": "Potassium salt fertilizer - gives crops potassium",
+            "Soil Poison Time": "Stays a few weeks in soil",
+            "Attack Method": "Too much makes soil salty - crops struggle to drink water",
+            "Global Status": "Commonly used - no major bans"
+        },
+        "famous_diseases": [
+            "Salty Soil Damage",
+            "Crop Root Burn",
+            "Skin Irritation",
+            "Stomach Problems"
+        ],
+        "safe_alternatives": [
+            "Wood Ash",
+            "Banana Peel Compost",
+            "Glauconite"
+        ]
+    },
+    "Proclaim (Emamectin Benzoate)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 60,
+            "Cancer Risk": 10,
+            "Microbial Death": 55,
+            "Skin Allergy": 40,
+            "Water Poison": 85
+        },
+        "scientific_profile": {
+            "Chemical Type": "Strong insect killer - made from soil bacteria compounds",
+            "Soil Poison Time": "Breaks down fast, 1-7 days in sunlight",
+            "Attack Method": "Paralyzes insect muscles - they stop eating and die",
+            "Global Status": "Safer for humans - but extremely toxic to water creatures"
+        },
+        "famous_diseases": [
+            "Nerve Damage (high dose)",
+            "Muscle Weakness",
+            "Tremors",
+            "Kills Shrimp and Water Life"
+        ],
+        "safe_alternatives": [
+            "Yellow and Blue Sticky Traps",
+            "Light Traps",
+            "Hand Picking"
+        ]
+    },
+    "Fipronil (Regent)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 95,
+            "Cancer Risk": 40,
+            "Microbial Death": 80,
+            "Skin Allergy": 20,
+            "Water Poison": 70
+        },
+        "scientific_profile": {
+            "Chemical Type": "Powerful insect and termite killer",
+            "Soil Poison Time": "Stays 4-12 months in soil - very persistent",
+            "Attack Method": "Blocks nerve signals - insects get paralyzed and die",
+            "Global Status": "Possibly causes cancer (EPA) - Banned in Europe and Vietnam"
+        },
+        "famous_diseases": [
+            "Thyroid Problems",
+            "Liver Swelling",
+            "Brain and Nerve Damage",
+            "Mass Bee Deaths"
+        ],
+        "safe_alternatives": [
+            "Beauveria bassiana (Natural fungus)",
+            "Metarhizium anisopliae (Bio-pesticide)"
+        ]
+    },
+    "Rogor (Dimethoate)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 70,
+            "Cancer Risk": 40,
+            "Microbial Death": 65,
+            "Skin Allergy": 35,
+            "Water Poison": 75
+        },
+        "scientific_profile": {
+            "Chemical Type": "Nerve-attacking insect killer - enters through plant roots and leaves",
+            "Soil Poison Time": "Breaks down in 1-3 weeks",
+            "Attack Method": "Blocks nerve signals - breathing stops in insects",
+            "Global Status": "Approval cancelled in Europe (2019)"
+        },
+        "famous_diseases": [
+            "Chemical Poisoning",
+            "Eye Damage",
+            "Hormone Problems",
+            "Breathing Trouble"
+        ],
+        "safe_alternatives": [
+            "Brahmastra",
+            "Neem Oil (10000 ppm)"
+        ]
+    },
+    "M-45 / Dithane (Mancozeb)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 10,
+            "Cancer Risk": 75,
+            "Microbial Death": 55,
+            "Skin Allergy": 65,
+            "Water Poison": 50
+        },
+        "scientific_profile": {
+            "Chemical Type": "Fungus killer - sprayed on leaves to prevent disease",
+            "Soil Poison Time": "Stays 1-2 months in soil",
+            "Attack Method": "Breaks down into ETU - a chemical that damages thyroid and DNA",
+            "Global Status": "Probable cancer cause (EPA B2) - Cancelled in Europe (2021)"
+        },
+        "famous_diseases": [
+            "Thyroid Cancer",
+            "Birth Defects",
+            "Severe Skin Rash",
+            "Parkinson's Disease (linked)"
+        ],
+        "safe_alternatives": [
+            "Sour Buttermilk Spray",
+            "Trichoderma viride"
+        ]
+    },
+    "Bavistin (Carbendazim - Tegulu mandu)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 10,
+            "Cancer Risk": 70,
+            "Microbial Death": 85,
+            "Skin Allergy": 30,
+            "Water Poison": 60
+        },
+        "scientific_profile": {
+            "Chemical Type": "Fungus killer - soaks into the plant and spreads",
+            "Soil Poison Time": "Stays 3-12 months - pollutes groundwater",
+            "Attack Method": "Stops cells from dividing - damages reproductive cells in humans too",
+            "Global Status": "Changes DNA - Banned in Europe for causing infertility"
+        },
+        "famous_diseases": [
+            "Male Infertility",
+            "Testicular Damage",
+            "Liver Damage",
+            "Birth Defects"
+        ],
+        "safe_alternatives": [
+            "Pseudomonas fluorescens",
+            "Trichoderma viride",
+            "Jivamrutham"
+        ]
+    },
+    "Tracer (Spinosad)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 5,
+            "Microbial Death": 20,
+            "Skin Allergy": 10,
+            "Water Poison": 35
+        },
+        "scientific_profile": {
+            "Chemical Type": "Natural insect killer - made from soil bacteria",
+            "Soil Poison Time": "Breaks down in 1-2 weeks",
+            "Attack Method": "Overstimulates insect nerves - they stop eating",
+            "Global Status": "Approved for organic farming - safest synthetic option"
+        },
+        "famous_diseases": [
+            "Harmful to bees on direct contact",
+            "Mild Skin Irritation"
+        ],
+        "safe_alternatives": [
+            "Neem Oil (10000 ppm)",
+            "Yellow and Blue Sticky Traps"
+        ]
+    },
+    "19 19 19 (NPK)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 5,
+            "Microbial Death": 70,
+            "Skin Allergy": 10,
+            "Water Poison": 85
+        },
+        "scientific_profile": {
+            "Chemical Type": "Water-soluble chemical fertilizer - equal NPK mix",
+            "Soil Poison Time": "Dissolves in days - leaches into water quickly",
+            "Attack Method": "Kills soil bacteria with salt buildup - pollutes nearby water",
+            "Global Status": "Commonly used - major cause of water pollution"
+        },
+        "famous_diseases": [
+            "Groundwater Poisoning",
+            "Kills Earthworms and Soil Life",
+            "Blue Baby Syndrome"
+        ],
+        "safe_alternatives": [
+            "Wood Ash",
+            "Jeevamrutham"
+        ]
+    },
+    "20 20 20 (NPK)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 5,
+            "Microbial Death": 70,
+            "Skin Allergy": 10,
+            "Water Poison": 85
+        },
+        "scientific_profile": {
+            "Chemical Type": "Water-soluble chemical fertilizer - stronger NPK mix",
+            "Soil Poison Time": "Dissolves in days - enters groundwater fast",
+            "Attack Method": "Makes soil acidic - kills beneficial microbes over time",
+            "Global Status": "Commonly used - causes algal blooms in water bodies"
+        },
+        "famous_diseases": [
+            "Dead Soil (no microbes)",
+            "Algal Blooms in Ponds",
+            "Groundwater Pollution"
+        ],
+        "safe_alternatives": [
+            "Bone Meal",
+            "Vermicompost"
+        ]
+    },
+    "Gramoxone (Paraquat)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 75,
+            "Cancer Risk": 45,
+            "Microbial Death": 80,
+            "Skin Allergy": 90,
+            "Water Poison": 85
+        },
+        "scientific_profile": {
+            "Chemical Type": "Extremely dangerous weed killer - kills on contact",
+            "Soil Poison Time": "Binds to soil particles - stays for years",
+            "Attack Method": "Creates toxic oxygen in cells - burns plant tissue instantly",
+            "Global Status": "One sip can kill - Banned in Europe, China, Brazil"
+        },
+        "famous_diseases": [
+            "Parkinson's Disease (2.5x higher risk)",
+            "Lung Scarring (Pulmonary Fibrosis)",
+            "Kidney Failure",
+            "Severe Skin Burns"
+        ],
+        "safe_alternatives": [
+            "Manual Weeding",
+            "Organic Mulching",
+            "Cover Cropping"
+        ]
+    },
+    "Cypermethrin": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 40,
+            "Microbial Death": 75,
+            "Skin Allergy": 65,
+            "Water Poison": 99
+        },
+        "scientific_profile": {
+            "Chemical Type": "Bug killer made from artificial chrysanthemum flower chemicals",
+            "Soil Poison Time": "Stays 2-4 weeks in soil",
+            "Attack Method": "Freezes the nerves of insects - they cannot move",
+            "Global Status": "Possibly causes cancer (EPA) - Extremely deadly to fish"
+        },
+        "famous_diseases": [
+            "Tremors and Shaking",
+            "DNA Damage",
+            "Loss of Body Control",
+            "Kills All Fish in Water"
+        ],
+        "safe_alternatives": [
+            "Trichogramma chilonis (tiny helpful wasp)",
+            "Chrysoperla carnea (green lacewing)",
+            "Neem Oil"
+        ]
+    },
+    "Confidor (Imidacloprid)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 85,
+            "Cancer Risk": 30,
+            "Microbial Death": 80,
+            "Skin Allergy": 25,
+            "Water Poison": 80
+        },
+        "scientific_profile": {
+            "Chemical Type": "Systemic insect killer - plant absorbs it and becomes poisonous",
+            "Soil Poison Time": "Stays for months to years in soil",
+            "Attack Method": "Overstimulates insect nerves until they die - same effect on bees",
+            "Global Status": "Main cause of global bee deaths - Banned in Europe (2018)"
+        },
+        "famous_diseases": [
+            "Mass Bee Colony Deaths",
+            "Memory Loss in Children",
+            "Autism Link (before birth)",
+            "Seizures"
+        ],
+        "safe_alternatives": [
+            "Verticillium lecanii (natural fungus)",
+            "Yellow and Blue Sticky Traps",
+            "Garlic Chilli Spray"
+        ]
+    },
+    "Stomp (Pendimethalin)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 10,
+            "Cancer Risk": 65,
+            "Microbial Death": 55,
+            "Skin Allergy": 35,
+            "Water Poison": 80
+        },
+        "scientific_profile": {
+            "Chemical Type": "Weed killer - stops weed seeds from sprouting",
+            "Soil Poison Time": "Stays 1-5 months in soil",
+            "Attack Method": "Stops cells from dividing - weeds cannot grow roots",
+            "Global Status": "Possibly causes cancer (EPA) - Restricted in Europe"
+        },
+        "famous_diseases": [
+            "Thyroid Cancer",
+            "Hormone Problems",
+            "Skin Rash and Allergies",
+            "Liver Damage"
+        ],
+        "safe_alternatives": [
+            "Manual Weeding",
+            "Organic Mulching",
+            "Corn Gluten Meal"
+        ]
+    },
+    "Dursban (Chlorpyrifos)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 75,
+            "Cancer Risk": 50,
+            "Microbial Death": 85,
+            "Skin Allergy": 35,
+            "Water Poison": 95
+        },
+        "scientific_profile": {
+            "Chemical Type": "Strong nerve poison for insects - very dangerous to children",
+            "Soil Poison Time": "Breaks down in 2-4 weeks",
+            "Attack Method": "Permanently damages nerve connections - brain damage in children",
+            "Global Status": "Banned in USA for food crops (2022) - Banned in Europe"
+        },
+        "famous_diseases": [
+            "IQ Loss in Children",
+            "ADHD and Autism Link",
+            "Slow Development in Kids",
+            "Delayed Walking"
+        ],
+        "safe_alternatives": [
+            "Beauveria bassiana (natural fungus)",
+            "Metarhizium (bio-pesticide)",
+            "Bird Perches in Fields"
+        ]
+    },
+    "Urea (Eruvu / Khad)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 10,
+            "Microbial Death": 55,
+            "Skin Allergy": 15,
+            "Water Poison": 75
+        },
+        "scientific_profile": {
+            "Chemical Type": "Nitrogen fertilizer - most common in Indian farming",
+            "Soil Poison Time": "Converts to ammonia gas in days - much is wasted",
+            "Attack Method": "Quick growth burst but kills earthworms and soil bacteria",
+            "Global Status": "Subsidized in India (Rs.267/bag) - overused nationwide"
+        },
+        "famous_diseases": [
+            "Blue Baby Syndrome",
+            "Stomach Problems (Nitrates)",
+            "Thyroid Issues",
+            "Kills Soil Microbes"
+        ],
+        "safe_alternatives": [
+            "Jeevamrutham",
+            "Vermicompost",
+            "Azolla and Blue-Green Algae"
+        ]
+    },
+    "DAP (Eruvu / Khad)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 15,
+            "Microbial Death": 50,
+            "Skin Allergy": 10,
+            "Water Poison": 75
+        },
+        "scientific_profile": {
+            "Chemical Type": "Phosphorus fertilizer - used at sowing time",
+            "Soil Poison Time": "Stays a few weeks in soil",
+            "Attack Method": "Contains toxic cadmium metal - builds up in soil over years",
+            "Global Status": "Subsidized in India (Rs.1350/bag) - widely used"
+        },
+        "famous_diseases": [
+            "Kidney Failure (from Cadmium)",
+            "Prostate Cancer Link",
+            "Weak Bones",
+            "Water Pollution"
+        ],
+        "safe_alternatives": [
+            "Bone Meal",
+            "PSB (Phosphorus Solubilizing Bacteria)",
+            "Rock Phosphate"
+        ]
+    },
+    "Coragen / Chlorantraniliprole": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 5,
+            "Microbial Death": 15,
+            "Skin Allergy": 5,
+            "Water Poison": 45
+        },
+        "scientific_profile": {
+            "Chemical Type": "Modern insect killer - much safer than older chemicals",
+            "Soil Poison Time": "Breaks down in 2-6 weeks",
+            "Attack Method": "Locks insect muscles - they cannot move or eat",
+            "Global Status": "Won Green Chemistry Award - safest synthetic pesticide available"
+        },
+        "famous_diseases": [
+            "Very low risk - one of the safest pesticides",
+            "Minor Eye Irritation"
+        ],
+        "safe_alternatives": [
+            "Neem Seed Kernel Extract (5%)",
+            "Pheromone Traps (5/acre)",
+            "Manual Scouting"
+        ]
+    },
+    "Atrataf (Atrazine)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 25,
+            "Cancer Risk": 80,
+            "Microbial Death": 50,
+            "Skin Allergy": 50,
+            "Water Poison": 99
+        },
+        "scientific_profile": {
+            "Chemical Type": "Weed killer - used on maize, sugarcane, and sorghum",
+            "Soil Poison Time": "Stays for months to years - most common chemical in drinking water",
+            "Attack Method": "Shuts down the plant's energy system - also disrupts animal hormones",
+            "Global Status": "Probably causes cancer (WHO-IARC) - Banned in Europe since 2004"
+        },
+        "famous_diseases": [
+            "Breast Cancer",
+            "Prostate Cancer",
+            "Birth Defects",
+            "Frog Hermaphroditism",
+            "Low Birth Weight"
+        ],
+        "safe_alternatives": [
+            "Organic Mulching",
+            "Manual Weeding",
+            "Cover Cropping"
+        ]
+    },
+    "Ammonium Sulphate": {
+        "chemical_metrics": {
+            "Bird Toxicity": 5,
+            "Cancer Risk": 5,
+            "Microbial Death": 65,
+            "Skin Allergy": 25,
+            "Water Poison": 65
+        },
+        "scientific_profile": {
+            "Chemical Type": "Nitrogen-Sulphur fertilizer - gives quick nitrogen boost",
+            "Soil Poison Time": "Dissolves in days",
+            "Attack Method": "Makes soil very acidic over time - crops struggle to grow",
+            "Global Status": "Commonly used - no major bans"
+        },
+        "famous_diseases": [
+            "Stomach Irritation",
+            "Kidney Stress",
+            "Breathing Problems (dust)",
+            "Soil Becomes Too Acidic"
+        ],
+        "safe_alternatives": [
+            "Azolla and Blue-Green Algae",
+            "Compost",
+            "Jeevamrutham"
+        ]
+    },
+    "Cartap Hydrochloride": {
+        "chemical_metrics": {
+            "Bird Toxicity": 10,
+            "Cancer Risk": 30,
+            "Microbial Death": 70,
+            "Skin Allergy": 15,
+            "Water Poison": 80
+        },
+        "scientific_profile": {
+            "Chemical Type": "Insect killer - originally copied from sea worm poison",
+            "Soil Poison Time": "Breaks down in 1-3 weeks",
+            "Attack Method": "Blocks nerve signals in insects - they get paralyzed",
+            "Global Status": "Restricted in Europe - commonly used in Asia"
+        },
+        "famous_diseases": [
+            "Muscle Paralysis",
+            "Breathing Problems",
+            "Loss of Body Control",
+            "Liver Stress"
+        ],
+        "safe_alternatives": [
+            "Dashaparni Kashayam",
+            "Brahmastra",
+            "Hand Picking"
+        ]
+    },
+    "Blitox (Copper Oxychloride)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 15,
+            "Cancer Risk": 10,
+            "Microbial Death": 65,
+            "Skin Allergy": 50,
+            "Water Poison": 55
+        },
+        "scientific_profile": {
+            "Chemical Type": "Copper-based fungus killer - oldest type of pesticide",
+            "Soil Poison Time": "Copper never breaks down - builds up in soil for years",
+            "Attack Method": "Copper ions poison fungus cells - but also harms soil life",
+            "Global Status": "Even used in organic farming (limited dose) - regulated in Europe"
+        },
+        "famous_diseases": [
+            "Copper Poisoning (liver)",
+            "Skin and Eye Burning",
+            "Soil Copper Buildup",
+            "Kills Fish"
+        ],
+        "safe_alternatives": [
+            "Jivamrutham soil drenching",
+            "Trichoderma viride",
+            "Sour Buttermilk Spray"
+        ]
+    },
+    "Ridomil (Metalaxyl)": {
+        "chemical_metrics": {
+            "Bird Toxicity": 10,
+            "Cancer Risk": 25,
+            "Microbial Death": 35,
+            "Skin Allergy": 15,
+            "Water Poison": 50
+        },
+        "scientific_profile": {
+            "Chemical Type": "Fungus killer - enters through roots and protects from inside",
+            "Soil Poison Time": "Stays 1-3 months in soil",
+            "Attack Method": "Stops fungus from making proteins - but diseases develop resistance",
+            "Global Status": "Commonly used - but fungi are becoming resistant to it"
+        },
+        "famous_diseases": [
+            "Liver Damage",
+            "Groundwater Contamination",
+            "Mild Skin Irritation"
+        ],
+        "safe_alternatives": [
+            "Trichoderma enriched FYM",
+            "Pseudomonas fluorescens",
+            "Jivamrutham"
+        ]
+    }
+}

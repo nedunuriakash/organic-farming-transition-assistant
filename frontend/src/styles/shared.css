@@ -1,0 +1,430 @@
+/*
+ * shared.css — Common utility classes replacing repetitive inline styles
+ * Used across DailyDashboard, MyPlans, FarmDetails, PlanSummary, etc.
+ * Follows the existing convention in flow.css and sidebar.css.
+ */
+
+/* ── Layout helpers ─────────────────────────────────────────────────────── */
+.flex-center {
+    display: flex;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.gap-4 {
+    gap: 4px;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 32px;
+}
+
+.empty-state-icon-container {
+    width: 64px;
+    height: 64px;
+    background: #f1f5f9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+}
+
+/* ── Spacing helpers ────────────────────────────────────────────────────── */
+.mb-4 {
+    margin-bottom: 4px;
+}
+
+.mb-8 {
+    margin-bottom: 8px;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mt-4 {
+    margin-top: 4px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-24 {
+    padding: 24px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+/* ── Typography ─────────────────────────────────────────────────────────── */
+.text-xs {
+    font-size: 0.75rem;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-base {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.125rem;
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.font-800 {
+    font-weight: 800;
+}
+
+.text-muted {
+    color: #64748b;
+}
+
+.text-subtle {
+    color: #94a3b8;
+}
+
+.text-dark {
+    color: #0f172a;
+}
+
+.text-medium {
+    color: #1e293b;
+}
+
+.text-brand {
+    color: #10b981;
+}
+
+.text-upper {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+/* ── Cards ──────────────────────────────────────────────────────────────── */
+.card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.04);
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 24px;
+}
+
+.card-hover {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Badges / Status pills ──────────────────────────────────────────────── */
+.pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    white-space: nowrap;
+}
+
+.pill-green {
+    background: #ecfdf5;
+    color: #065f46;
+}
+
+.pill-blue {
+    background: #eff6ff;
+    color: #1d4ed8;
+}
+
+.pill-amber {
+    background: #fffbeb;
+    color: #92400e;
+}
+
+.pill-red {
+    background: #fef2f2;
+    color: #991b1b;
+}
+
+.pill-slate {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+/* ── Progress bar ───────────────────────────────────────────────────────── */
+.progress-track {
+    height: 3px;
+    background: #f1f5f9;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+    border-radius: 0 3px 3px 0;
+    transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-fill.done {
+    background: #10b981;
+}
+
+/* ── Dividers ───────────────────────────────────────────────────────────── */
+.divider {
+    border: none;
+    border-top: 1px solid #f1f5f9;
+    margin: 0;
+}
+
+/* ── Page section headers ───────────────────────────────────────────────── */
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+/* ── Icon boxes ─────────────────────────────────────────────────────────── */
+.icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.icon-box-green {
+    background: #d1fae5;
+}
+
+.icon-box-blue {
+    background: #dbeafe;
+}
+
+.icon-box-purple {
+    background: #ede9fe;
+}
+
+.icon-box-slate {
+    background: #f1f5f9;
+}
+
+/* ── Loading spinner ────────────────────────────────────────────────────── */
+.spin {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ── Error banner ───────────────────────────────────────────────────────── */
+.error-banner {
+    background: #fef2f2;
+    border: 1px solid #fca5a5;
+    border-radius: 12px;
+    padding: 14px 16px;
+    color: #b91c1c;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+}
+
+/* ── Success banner ─────────────────────────────────────────────────────── */
+.success-banner {
+    background: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 10px;
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #15803d;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* ── Empty state ────────────────────────────────────────────────────────── */
+.empty-state {
+    background: #f8fafc;
+    border: 2px dashed #cbd5e1;
+    border-radius: 20px;
+    padding: 64px 24px;
+    text-align: center;
+}
+
+.empty-state h2 {
+    color: #334155;
+    margin-bottom: 8px;
+    font-size: 1.4rem;
+}
+
+.empty-state p {
+    color: #94a3b8;
+    font-size: 1rem;
+    max-width: 360px;
+    margin: 0 auto 24px;
+    line-height: 1.6;
+}
+
+/* ── Hover opacity ──────────────────────────────────────────────────────── */
+.hover-opacity {
+    transition: opacity 0.2s ease;
+}
+
+.hover-opacity:hover {
+    opacity: 0.75;
+}
+
+/* ── Ghost button ───────────────────────────────────────────────────────── */
+.ghost-btn {
+    background: transparent;
+    border: 1px solid #e2e8f0;
+    padding: 7px 14px;
+    border-radius: 8px;
+    color: #475569;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.82rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.15s ease, border-color 0.15s ease;
+}
+
+.ghost-btn:hover {
+    background: #f8fafc;
+    border-color: #cbd5e1;
+}
+
+/* ── Stats card ─────────────────────────────────────────────────────────── */
+.stat-card {
+    border-radius: 12px;
+    padding: 16px 20px;
+    border: 1px solid transparent;
+}
+
+.stat-card .stat-num {
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.stat-card .stat-label {
+    font-size: 0.78rem;
+    color: #64748b;
+    font-weight: 600;
+    margin-top: 4px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
